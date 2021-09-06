@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body{ 
+    background: url(../image/background.jpg) no-repeat;
+    background-size:cover;
+}
+
+.cont{
+    position: relative;
+    width: 25%;
+    height:65%;
+    padding: 10px 25px;
+    margin: 8vh auto;
+    background: #fff;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.form{ 
+    width: 100%;
+}
+
+.homelink {
+    display: block;
+    margin-top: 20px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+    margin: 30px auto;
+}
+
+h1, h2, p, #loading, .field{ 
+    text-align: center;
+    display: block;
+}
+
+.title {
+    color: black;
+}
+
+.subtitle{ 
+    color: #606060;
+}
+
+h2 {
+    margin: 30px;
+    color: #fff;
+    margin-top: 25px;
+}
+
+.validation_msg {
+    margin: 30px;
+    color: #adaa03;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+#qrcode {
+    width: 100%;
+}
+
+#qrcode_instruction_result_subtitle {
+    display: none;
+}
+
+#pure_instruction_result_subtitle {
+    display: none;
+}
+
+#subfield {
+    display: none;
+}
+
+.status {
+    color: yellow;
+    margin: 30px;
+}
+
+.attendance_msg {
+    color: #adaa03;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#loading, #tick {
+    margin:0 auto;
+    width: 100%;
+}
+
+.icon {
+    width: 33%;
+}
+
+#icon_box {
+    margin:0 auto;
+    display: table;
+    height: 100%;
+}
+
+.sub_icon_box {
+    width:33.33%;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.sub_icon_box:hover {
+    border: 5px solid lightgrey;
+    border-radius: 15px;
+}
+
+.sub_icon_box img {
+    width: 90%;
+}
+
+.sub_icon_box span {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.field, .signin {
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+.field_btn {
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+.ins_con_btn {
+    display: none;
+    width: 45%;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 5px;
+}
+
+.field{ background: #ecf0f1; }
+
+.ins_con_btn, .signin{
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+    background: #3598dc;
+    transition: background 0.4s ease;
+}
+
+.field_btn{
+    color: #000;
+    cursor: pointer;
+    background: #e3e8de;
+    transition: background 0.4s ease;
+}
+
+.signin:hover{ background: #3570dc; }
+
+.ins_del_btn:hover{ background: #3570dc; }
+
+.field_btn:hover{ background: #d2d8cb; }
+
+@media only screen and (min-width : 280px) {
+    .cont{ width: 90% }
+}
+
+@media only screen and (min-width : 480px) {
+    .cont{ width: 65% }
+}
+
+@media only screen and (min-width : 768px) {
+    .cont{ 
+        width: 40%;
+        height: 40%;
+    }
+    .sub_icon_box span{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width : 992px) {
+    .cont{ 
+        width: 30%;
+        height: 65%;
+    }
+    .sub_icon_box span{
+        font-size: 30px;
+    }
+}
